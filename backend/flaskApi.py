@@ -23,8 +23,6 @@ def upload():
     name = request.form.get('name')
     print(name)
     
-
-
     # create a directory named video
     
     byte_data = blob.read()
